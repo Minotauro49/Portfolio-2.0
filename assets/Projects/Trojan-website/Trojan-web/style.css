@@ -1,0 +1,554 @@
+body {
+	margin:					0px;
+	padding:				0px;
+	background-image: 		url(http://www.sanwebe.com/assets/public/images/background-patterns/bg63.gif);
+
+}
+
+/*------------------------------------------
+bodydiv styling
+---------------*/
+
+/*postion of the link in the body*/
+#name1 a{
+	position:			absolute;
+	top:				-10px;
+}
+
+#name2 a{
+	position:			absolute;
+	top:				-65px;
+}
+
+#name3 a{
+	position:			absolute;
+	top:				-112px;
+}
+
+
+#name4 a{
+	position:			absolute;
+	top:				-160px;
+}
+
+
+#name5 a{
+	position:			absolute;
+	top:				-207px;
+}
+
+
+
+
+#name a:hover{
+	transform:			none;
+	background: 		none;
+	box-shadow: 		none;	
+}
+
+
+
+
+.body1,
+.body2,
+.body3,
+.body4,
+.body5{
+	margin-top: 		0px;
+	margin-left: 		-500px;
+	left: 				50%;
+	margin-bottom: 		150px;
+	width: 				1000px;
+	height: 			690px;
+	position: 			relative;
+	box-shadow: 		0px 8px 10px rgba(0,0,0,0.5);
+
+}
+
+
+
+
+/* blue grey*/
+.body1{
+	background: 		rgba(69, 90, 100,0);
+	box-shadow: 		none;
+}
+
+
+/* purple grey*/
+
+.body2{
+	background: 		rgba(80,64,77,0.9);
+}
+
+/* lightblue grey*/
+.body3{
+	background: 		rgb(52, 75, 101);
+}
+
+/* green grey*/
+.body4{
+	background: 		rgba(76, 83, 70,0.9);	
+}
+
+/* red grey*/
+.body5{
+	background: 		rgba(114, 39, 43,0.9);
+}
+
+
+
+/* ---------------------------------------------------
+navigation style
+---------------*/
+
+.container{
+	position: 			absolute;
+	margin: 			0px;
+	padding:			0px;
+	z-index: 			5;
+
+}
+
+
+li{
+	list-style-type: 	none;
+	
+   
+}
+
+#nav{
+
+    position:  			fixed;
+}			
+
+.container a {
+ 	display:			block;
+    text-decoration: 	none;
+    background: 		rgb(48, 48, 48);
+    color: 				white;
+    font-family: 		Consolas;
+    font-size: 			14px;
+    margin-left: 		-80px;
+    padding:			15px 40px 15px;
+    border-top: 		1px solid rgba(35, 35, 35,0.3);
+    box-shadow: 		0px 3px 5px rgba(0,0,0,0.8);
+    -webkit-transition:	0.2s ease-in-out;
+    -o-transition:		0.2s ease-in-out;
+    -ms-transition:		0.2s ease-in-out;
+    -moz-transition:    0.2s ease-in-out;
+
+}
+
+.container a:hover{
+	transform:			translateX(30px);
+	background: 		rgb(39, 39, 39);
+	box-shadow: 		0px 2px 3px rgba(0,0,0,0.5);	
+}
+
+ .active a{
+	transform:			translateX(30px);
+	background: 		rgb(39, 39, 39);
+	box-shadow: 		0px 2px 3px rgba(0,0,0,0.5);
+}
+
+
+
+#intro a{
+  	border-left:                20px solid rgb(69, 90, 100);
+}
+
+
+#history a{
+  	border-left:                20px solid rgb(80,64,77);
+}
+
+
+#creation a{
+  	border-left:                20px solid rgb(52, 75, 101);
+}
+
+
+
+#facts a{
+  	border-left:                20px solid rgb(76, 83, 70);
+}
+
+
+#summary a{
+  	border-left:                20px solid rgb(114, 39, 43);
+}
+
+/*-----------------------------------------------------------------
+scroll bar style
+---------------*/
+
+
+::-webkit-scrollbar{
+  width: 						15px;  /* for vertical scrollbars */
+  height: 						15px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track{
+  background: 					rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: 					rgba(0, 0, 0, 0.4);
+  border-radius:				3px;
+  box-shadow: 					0px 0px 100px rgba(0,0,0,0.1)
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: 					rgba(0, 0, 0, 0.5);
+}
+
+
+
+/*------------------------------------------------------------------
+BODY STYLE
+----------*/
+
+h1{
+	position: 					absolute;
+	font-family: 				Berlin Sans FB,arial;
+	color: 						rgba(225,225,225,0.7);
+	text-shadow: 				0px 5px 10px rgba(0,0,0,0.5);
+	margin: 					0px;
+	padding:					0px;
+	left: 						250px;
+}
+
+
+
+#fun{
+	position: 					absolute;
+	left: 						390px;
+	margin-top: 				40px;
+}
+
+
+#int{
+	position: 					absolute;
+	left: 						380px;
+	margin-top: 				40px;
+}
+
+
+
+#summ{
+	position: 					absolute;
+	left: 						420px;
+	margin-top: 				40px;	
+}
+
+
+#his{
+	position: 					absolute;
+	top: 						40px;
+	left: 						280px;
+}
+
+#pro{
+	position: 					absolute;
+	top: 						40px;
+	
+}
+
+
+
+/*---------------------------------------------------------------------- 
+body content
+------------------*/
+
+
+/* HISTORY SECTION STYLE*/
+#content1 {
+	position: 				absolute;
+	width: 					400px;
+	height: 				500px;
+	background: 			rgba(225,225,225,0.9);
+	box-shadow: 			0px 5px 10px rgba(0,0,0,0.7);
+	left: 					60px;
+	top: 					130px;
+	font-family: 			Gill Sans MT;
+	font-size: 				17px;
+}
+
+ #content1 p{
+	margin: 				30px;
+	color: 					rgb(1, 52, 45);
+
+}
+
+
+#content2 {
+	position: 				absolute;
+	width: 					400px;
+	height:					500px;
+	background: 			rgba(225,225,225,0.9);
+	box-shadow: 			0px 5px 10px rgba(0,0,0,0.7);
+	left: 					540px;			
+	top:					130px;
+	font-family: 			Gill Sans MT;
+	font-size: 				17px; 					
+}
+
+#content2 p{
+	margin: 				30px;
+	color: 					rgb(1, 52, 45);
+
+}
+
+#learn2{
+	position: relative;
+	left: 					620px;
+	top: 					195px;
+}
+
+#learn{
+	position: relative;
+	left: 					200px;
+}
+
+#learn2 a{
+	text-decoration: 		none;
+	color: 					white;
+	font-size: 				17px;
+	font-family: 			Consolas;
+	background: 			rgb(39, 78, 78);
+	padding:				10px 10px 10px;
+	box-shadow: 			0px 3px 6px rgba(0,0,0,0.8);
+	transition: 			all 0.2s ease 0s;
+	-webkit-transition:		0.2s ease-in-out;
+    -o-transition:			0.2s ease-in-out;
+    -ms-transition:			0.2s ease-in-out;
+    -moz-transition:    	0.2s ease-in-out;
+}
+
+
+
+#learn a{
+	text-decoration: 		none;
+	color: 					white;
+	font-size: 				17px;
+	font-family: 			Consolas;
+	background: 			rgb(39, 78, 78);
+	padding:				10px 10px 10px;
+	box-shadow: 			0px 3px 6px rgba(0,0,0,0.8);
+	transition: 			all 0.2s ease 0s;
+	-webkit-transition:		0.2s ease-in-out;
+    -o-transition:			0.2s ease-in-out;
+    -ms-transition:			0.2s ease-in-out;
+    -moz-transition:    	0.2s ease-in-out;	
+}
+
+
+#learn:hover a{
+	background: 			rgb(29, 56, 56);	
+}
+
+#learn2:hover a{
+	background: 			rgb(29, 56, 56);	
+}
+
+
+#learn:active a{
+	border-radius: 			6px;
+	box-shadow: 			0px 3px 6px rgba(0,0,0,0.5);	
+}
+
+#learn2:active a{
+	border-radius: 			6px;
+	box-shadow: 			0px 3px 6px rgba(0,0,0,0.5);	
+}
+
+/* FUN FACT SECTION STYLE*/
+
+#fun-time{
+	width: 					900px;
+	height: 				500px;
+	position: 				absolute;
+	top: 					120px;
+	left: 					50px;
+	background: 			rgba(225,225,225,0.9);
+	font-family: 			Gill Sans MT;
+	font-size: 				17px; 
+	box-shadow: 			0px 5px 10px rgba(0,0,0,0.7);
+}
+
+#fun-time p{
+	padding: 				10px 10px 10px;
+	margin: 				20px;
+	color: 					rgb(1, 52, 45);
+
+}
+
+/* summary style*/
+#finish{
+	width: 					900px;
+	height: 				500px;
+	position: 				absolute;
+	top: 					120px;
+	left: 					50px;
+	background: 			rgba(225,225,225,0.9);
+	font-family: 			Gill Sans MT;
+	font-size: 				17px; 
+	box-shadow: 			0px 5px 10px rgba(0,0,0,0.7);	
+}
+
+#finish p{
+	margin: 				30px;
+	padding: 				10px 10px 10px;
+	color: 					rgb(1, 52, 45);
+
+}
+
+footer{
+	color: 					rgba(0,0,0,0.9);
+	position: 				absolute;
+	font-family: 			arial ;
+	left: 					600px;
+	top: 					640px;
+	text-shadow: 			0pc 0pc 1pc
+
+}
+
+
+
+.funfacts-lists{
+	background:				rgba(225,225,225,0.2);
+	border-radius: 			5px;
+	border: 				1px solid rgba(0,0,0,0.1);
+}
+
+#specific-pos{
+	position: 				relative;
+	top: 					-50px;
+}
+
+
+.img-style img{
+	transition: 			all 0.5s;
+	position: 				relative;
+	width: 					270px;
+	height: 				220px;
+	margin-left: 			10px;
+	top: 					370px;
+	left: 					70px;
+	border:					1px solid rgb(0,0,0);
+	box-shadow: 			0px 5px 10px rgba(0,0,0,0.5)
+}
+
+
+.img-style img:hover{
+	opacity: 				0.8;
+}
+
+
+/*-------------------------------------------------
+ my project style page
+ --------------------*/
+
+/*menu*/
+#icon1,
+#icon2,
+#icon3{
+	transition: all 0.3s;
+	position: relative;
+	width: 50px;
+	height: 10px;
+	margin: 5px;
+	background:rgb(0,0,0);
+	border-radius: 2px;
+}
+
+.menu{
+	position: absolute;
+	left: 20px;
+	top: 80px;
+
+}
+
+.secontainer{
+	position: absolute;
+	width: 135px;
+	height: 152px;
+	overflow: hidden;
+	top:130px;
+	left: 25px;
+	z-index: 10;
+}
+
+
+.secontainer a{
+	text-decoration: none;
+	display: block;
+	padding: 10px 10px 10px;
+	background: rgb(39, 39, 39);
+	width: 110px;
+	position: relative;
+	box-shadow: 0px 2px 3px rgba(0,0,0,0.5);
+	color: rgba(225,225,225,0.8);
+	font-family: arial;
+}
+
+
+.secontainer a:hover{
+box-shadow: 0px 2px 5px rgb(0,0,0);
+opacity: 0.9
+}
+
+.secontainer a:active{
+transform: translateX(3px);
+}
+
+#tran{
+	transition: all 0.3s;
+	transform: translateY(-200px);
+}
+
+
+
+/* body inset display*/
+
+#Simulation{
+	transition: all 0.5s;
+	width: 950px;
+	height: 525px;
+	left: 25px;
+	top: 130px;
+	position: absolute;
+}
+
+
+iframe{
+	transition: all 0.5s;
+	width: 950px;
+	height: 525px;
+	left: 25px;
+	top: 130px;
+	transform: translateX(-2000px);
+	position: absolute;
+	background: orange;
+}
+
+/* slider borde*/
+.slider{
+	overflow: hidden;
+	position: absolute;
+	left: 0px;
+	top: 130px;
+	width: 980px;
+	height: 525px;
+}
+
+
+#status img{
+	width:600px;
+	height:450px;
+	position:absolute;
+	left:400px;
+	top:50px;
+}

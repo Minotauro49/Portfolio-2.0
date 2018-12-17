@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+		<head>
+	<title>Trojan Horse</title>
+	<link rel="icon" type="icon/png" href="http://vignette3.wikia.nocookie.net/scribblenauts/images/2/25/Trojan_Horse.png/revision/latest?cb=20130728145005">
+
+<style>	
+#loading_screen{
+	margin-left: 			-10px;
+	padding:				0px;
+	background: 			white;
+	position: 				absolute;
+	width: 					105%;
+	height: 				100%;
+	z-index: 				10;
+	overflow: 				hidden;
+
+}
+
+#cont{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50px,-50px);
+}
+
+
+ #load{
+	width: 				100px;
+	height: 			50px;
+	background: 		#AFB42B;
+	opacity: 			0.9;
+	box-shadow:			0px 1px 2px;
+	animation:			loads 2s linear infinite;
+	animation-delay: 	1s
+
+}
+
+
+ #load2{
+	width: 				100px;
+	height: 			50px;
+	background: 		#607D8B;
+	opacity: 			0.8;
+	box-shadow:			0px 1px 2px;
+	animation: 			loads 2s linear infinite;
+	animation-delay: 	1s
+	
+}
+
+
+
+ #load3{
+	width: 				100px;
+	height: 			50px;
+	background: 		#388E3C;
+	opacity: 			0.6;
+	box-shadow:			0px 1px 2px;
+	animation: 			loads 2s linear infinite;
+	animation-delay: 	1s
+	
+}
+
+
+@-webkit-keyframes loads{
+	0%{transform:rotate(0deg);opacity:1}
+	25%{transform:rotate(25deg);opacity:0.8}
+	50%{transform:rotate(50deg);opacity:0.5}
+	75%{transform:rotate(75deg);opacity:0.3}
+	100%{transform:rotate(0deg);opacity:1}
+}
+
+
+@keyframes loads{
+	0%{transform:rotate(0deg);opacity:1}
+	25%{transform:rotate(25deg);opacity:0.8}
+	50%{transform:rotate(50deg);opacity:0.5}
+	75%{transform:rotate(75deg);opacity:0.3}
+	100%{transform:rotate(0deg);opacity:1}
+}
+</style>
+
+
+
+<script>
+window.addEventListener("load", function(){
+	var load = document.getElementById("loading_screen");
+	document.body.removeChild(load);
+});
+</script>
+
+</head>
+		
+<body>
+<!-- loading screen-->
+	<div id="loading_screen">
+<style>
+	::-webkit-scrollbar{
+	display: 		 none;
+}
+</style>
+
+<div id="cont">
+<div id="load">
+	<div id="load2"> 
+	<div id="load3">
+	</div>
+	</div>
+</div>
+</div>
+</div>
+<!--end loading screen-->
+
+
+
+<!-- //  navigation bar  \\-->
+<div class="container">
+		<ul id="nav">
+			<li id="intro" 		onclick="action1(num = 1)"><a  href="#body1">Introduction</a></li>
+
+			<li id="history"	onclick="action1(num = 2)"><a  href="#marker1">History</a></li>
+
+			<li id="creation" 	onclick="action1(num = 3)"><a  href="#body3">My creations</a></li>
+
+			<li id="facts" 		onclick="action1(num = 4)"><a  href="#body4">Facts</a></li>
+
+			<li id="summary" 	onclick="action1(num = 5)"><a  href="#body5">Summary</a></li>
+
+		</ul>
+
+</div>
+
+
+<!--//   the introduction  \\-->
+<div id="body1">
+<div class="body1">
+	<div id="name1"><a name="body1"></a></div>
+
+<h1 id="int">INTRODUCTION</h1>
+
+<!-- image list-->
+ <link rel="stylesheet" type="text/css" href="Trojan-web\css\style.css" />
+		<script type="text/javascript" src="Trojan-web/js/modernizr.custom.26887.js"></script> 
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="Trojan-web/css/noscript.css" />
+		</noscript>
+
+
+			
+			<div class="main" style="position: absolute;width: 1500px;height: 700px;left: -285px;top: 90px;">
+			
+				<div class="fs-slider" id="fs-slider">
+					
+					<figure>
+						<img src="Trojan-web/images/1.jpg" alt="image01" />
+						<figcaption id="extralength4">
+							<h3>WHY WERE NO EVIDENCE OF<br> THE TROJAN HORSE BEEN FOUND?</h3>
+
+							<p>The trojan horse was made up of mostly<br> wood and reeds to bind it and we all<br> know wood is an organic material<br> which means it will not last about a<br> thousand years after its so called<br> construction.</p>
+						</figcaption>
+					</figure>
+					
+					<figure>
+						<img src="Trojan-web/images/2.jpg" alt="image02" />
+						<figcaption>
+							<h3>WHAT IS THE TROJAN<br>HORSE</h3>
+							<p>A hollow wooden statue of a horse in<br> which the Greeks are said to have<br> concealed themselves in order<br> to enter Troy. 
+							</p>
+						</figcaption>
+					</figure>
+					
+					<figure>
+						<img src="Trojan-web/images/3.jpg" alt="image03" />
+						<figcaption>
+							<h3>WHY WAS IT MADE</h3>
+							<p>In Greek mythology, a large, hollow horse<br> made of wood used by the Greeks<br> to win the Trojan War.<br> The resourceful Odysseus had come up<br> with the plan for the horse.<br> The Greeks hid soldiers inside it and strategically left it outside the<br> gates of Troy.</p>
+						</figcaption>
+					</figure>
+					
+					<figure>
+						<img src="Trojan-web/images/5.jpg" alt="image05" />
+						<figcaption id="extralength2">
+							<h3>WHY DID THEY COME UP<br>  WITH THE IDEA TROJAN<br>  HORSE?</h3>
+							<p>After ten years of trying hard to break in<br> Troy city and consecutively failing<br> it was time to come up with a new<br> revolutionary idea. The trojan horse This magnificent idea started with Odysseus,<br> a Greek general. His plan was to build a<br> horse, a beautiful and huge wooden horse,<br> and leave it outside the gate. Then,<br> the entire Greek army would pretend to<br> leave, as if they had finally admitted defeat.<br> But the horse would be hollow.<br> Thirty men would be hiding inside.<br> That's what they did.</p>
+						</figcaption>
+					</figure>
+				</div><!-- /fs-slider -->
+			</div>
+        </div>
+        </div>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+		<script type="text/javascript" src="Trojan-web/js/jquery.imgslider.js"></script>
+		<script>
+			$(function() {
+
+				$( '#fs-slider' ).imgslider();
+
+			});
+		</script>
+   
+
+	<!-- slider end -->	
+
+
+
+<!--//   history  \\-->
+<div class="body2">
+<div id="name2"><a data-scroll name="marker1"></a></div>
+
+
+<h1 id="his">HISTORY OF TROJAN HORSE</h1>
+
+
+
+<div id="content1"><p>
+Almost 3000 years ago, the Trojans and Greeks fought a long and terrible war. 
+Why? Because the Trojans had captured a beautiful Greek princess Helen. But this is
+a story about a horse and not the princess; The Greeks fought a battle with Troy
+but could not get in the tall strong walls around the city. They tried everything 
+but it began to look that Greeks would not win the battle.
+
+So the Greeks thought that if they could not win the battle with their physical 
+strength then they should win it with their brains. They thought of a smart trick. 
+They started building a wooden horse. The Trojans kept wondering why the Greeks were 
+building a horse. Some laughed and some were puzzled.
+ Then one day when they saw the greek armies sailing away, they got confused. Soon 
+ in few days, all the warships, army tents and armies disappeared. 
+ The only thing that remained were the 80 ft tall strange wooden horse.
+</p>
+</div>
+
+
+
+
+<div id="content2"><p>
+Some Trojan wanted to burn the horse but the King was too proud of defeating Greeks and ordered to 
+bring the horse inside the city walls as a symbol of their victory. After pulling the horse inside they 
+partied and danced all night. Then they went to sleep.It was now that the Greeks played the rest of their
+trick. Not all the Greeks had sailed away on the warships. A very brave Greek soldier named Odysseus
+had chosen some tough fighting men to hide inside the hollow wooden horse. Around thirty soldiers 
+stepped out in the dark and signaled their warships that had been hiding around a nearby island.
+Then they opened the Trojan city gates and the Greek army swarmed in.
+
+The Greeks caught the Trojans completely off guard. After a fierce battle 
+ they took princess Helen back to Greece.
+</p> <div id="learn"><a href="#">Learn more... &#x2192;</a></div>	
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+<!--//   my creation  \\-->
+<div class="body3">
+<div id="name3"><a name="body3"></a></div>
+<h1 id="pro">MY PROJECT AND CREATIONS</h1>
+
+<!-- body links-->
+<img id="img" src="open.png" style="display: none;">
+<a class="menu" href="##" onClick="displaymenu()">
+	<div id="icon1"></div>
+	<div id="icon2"></div>
+	<div id="icon3"></div>
+</a>
+
+
+<div class="secontainer">
+<div id="tran">
+<div id="sector1" onClick="nextpage(num=1)"><a href="##">My Game</a></div>
+<div id="sector2" onClick="nextpage(num=2)"><a href="##">3D model view</a></div>
+</div>
+</div>
+
+
+
+<iframe src="https://sketchfab.com/models/daa48f20ead440cb9981066e6eaa575b/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+<iframe id="Simulation" src="https://www.youtube.com/embed/wcqInBb85Gg"></iframe>
+
+
+
+<!--slider-->
+</div>
+
+</div>
+
+
+
+
+
+<!--//   fun facts  \\-->
+<div class="body4">
+<div id="name4"><a name="body4"></a></div>
+<h1 id="fun">FUN FACTS</h1>
+
+<div id="fun-time">
+
+<p class="funfacts-lists">
+We know about the Trojan War because of ancient writers. These writers wrote 
+about the war hundreds of years after it was supposed to have taken place. The most 
+important of these writers were the poets Homer and Virgil.
+</p>
+
+<p class="funfacts-lists">
+The Trojan war lasted 10 years
+</p>
+
+<p class="funfacts-lists">
+The Trojan horse is a historic tale from the Trojan War.
+Yes believe me it was Odysseus who came up with the idea Trojan horse and
+made it so historically convincing that I myself  actually happen to believed 
+it really happen. <div id="learn2"><a href="#">Learn more... &#x2192;</a></div>
+</p>
+ 
+<p class="funfacts-lists" id="specific-pos">
+In modern times the term Trojan Horse has been used to talk about computer programs 
+that on the outside seem to be a good program but really it is a damaging computer virus,
+spyware, or other type of malware. Like the mythical Trojan Horse, these computer programs 
+seem to be gifts but once they get past your computer's defenses they open up and wreak 
+havoc on your machine. So when you see a program on the Internet that seems too good to be 
+true, watch out! - it could be a Trojan Horse
+</p>
+
+</div>
+</div>
+
+
+
+<!--//   summary  \\-->
+<div class="body5">
+<div id="name5"><a  name="body5"></a></div>
+<h1 id="summ">SUMMARY</h1>
+
+
+<div id="finish" >
+<p class="funfacts-lists">
+To convert all this in just a few sentences, wily Odysseus comes up with a sneaky plan. Most of the Greeks
+will pretend to sail away, while a few hide inside of a giant wooden horse. Despite the arguments of the
+priest Laocoon and the seer Cassandra, the Trojans drag the horse inside the city thanks to the lies
+of a Greek named Sinon.<br><br>That night, Odysseus and the rest of the Greeks inside the horse sneak out,
+open the gates for their buddies, and finally lay waste to the city of Troy.
+If you ask this was a one way plan with high probability of feiler
+ I mean imagine if one of the accidently 
+made noise or someone decide to check in the horse since they were clearly trap doors
+visible on the wooden horse.
+</p>
+</div>
+
+<div class="img-style">
+	
+<img src="http://www.globalmbwatch.com/wp-content/uploads/2015/08/img_2678.png">
+<img src="http://www.pbs.org/wnet/secrets/files/2015/09/sade-trojan-promo-mez.jpg">
+<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ56RikXFbSpl_JAg_D3otc1DPIDbnz7zQY64MVVb9LFAaYnkD_xg">
+</div>
+
+
+
+<footer>
+	<p>Compiled by Brian Shisanya</p>
+</footer>
+
+</div>
+
+</body>
+</html>
+
+<link rel="stylesheet" type="text/css" href="Trojan-web/style.css">
+<script src="Trojan-web/script.js"></script>
+<script src="Trojan-web/smooth scroll.js"></script>
+<script src="Trojan-web/active nav.js"></script>
+<script src="Trojan-web/nextpage.js"></script>
+	
+
+

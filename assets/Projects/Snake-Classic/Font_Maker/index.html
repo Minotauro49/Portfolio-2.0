@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snake</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.4/angular.min.js"></script> 
+	<script type="text/javascript" src="TextDisplay.js"></script>
+</head>
+<body ng-app="">
+
+
+
+
+<div class="container">
+	<div class="jumbotron">
+		<div class="btn-group btn-group-toggle mb-3" data-toggle="buttons">
+		  <label class="btn btn-outline-dark active">
+		    <input type="radio" name="options" id="option1" autocomplete="off" checked>UPPER - CASE
+		  </label>
+
+		  <label class="btn btn-outline-dark">
+		    <input type="radio" name="options" id="option2" autocomplete="off">lower - case
+		  </label>
+		</div>
+
+
+	<!-- 	<div class="btn-group mb-3 btn-toolbar">
+			<button class="btn btn-secondary" disabled>Font-Size</button>
+			<button class="btn btn-outline-dark">Small</button>
+			<button class="btn btn-outline-dark">Big</button>
+		</div> -->
+		<div class="btn-group mb-3 btn-toolbar btn-group-toggle" data-toggle="buttons" id="char">
+			<button class="btn btn-outline-primary">A</button>
+			<button class="btn btn-outline-primary">B</button>
+			<button class="btn btn-outline-primary">C</button>
+			<button class="btn btn-outline-primary">D</button>
+			<button class="btn btn-outline-primary">E</button>
+			<button class="btn btn-outline-primary">F</button>
+			<button class="btn btn-outline-primary">G</button>
+			<button class="btn btn-outline-primary">H</button>
+			<button class="btn btn-outline-primary">I</button>
+			<button class="btn btn-outline-primary">J</button>
+			<button class="btn btn-outline-primary">K</button>
+			<button class="btn btn-outline-primary">L</button>
+			<button class="btn btn-outline-primary">M</button>
+			<button class="btn btn-outline-primary">N</button>
+			<button class="btn btn-outline-primary">O</button>
+			<button class="btn btn-outline-primary">P</button>
+			<button class="btn btn-outline-primary">Q</button>
+			<button class="btn btn-outline-primary">R</button>
+			<button class="btn btn-outline-primary">S</button>
+			<button class="btn btn-outline-primary">T</button>
+			<button class="btn btn-outline-primary">U</button>
+			<button class="btn btn-outline-primary">V</button>
+			<button class="btn btn-outline-primary">W</button>
+			<button class="btn btn-outline-primary">X</button>
+			<button class="btn btn-outline-primary">Y</button>
+			<button class="btn btn-outline-primary">Z</button>
+		</div>
+		<div class="btn-group mb-3 btn-toolbar btn-group-toggle" data-toggle="buttons" id="char">
+			<button class="btn btn-outline-primary">0</button>
+			<button class="btn btn-outline-primary">1</button>	
+			<button class="btn btn-outline-primary">2</button>	
+			<button class="btn btn-outline-primary">3</button>	
+			<button class="btn btn-outline-primary">4</button>	
+			<button class="btn btn-outline-primary">5</button>	
+			<button class="btn btn-outline-primary">6</button>	
+			<button class="btn btn-outline-primary">7</button>	
+			<button class="btn btn-outline-primary">8</button>	
+			<button class="btn btn-outline-primary">9</button>
+		</div>
+
+		<div class="btn-group btn-toolbar btn-group-toggle" data-toggle="buttons" id="char">
+			<button class="btn btn-outline-primary">.</button>
+			<button class="btn btn-outline-primary">,</button>
+			<button class="btn btn-outline-primary">]</button>
+			<button class="btn btn-outline-primary">-</button>
+			<button class="btn btn-outline-primary">[</button>
+			<button class="btn btn-outline-primary">></button>
+			<button class="btn btn-outline-primary">|</button>
+		</div>
+	</div>
+	<button class="btn btn-outline-danger" onclick="location.reload()">Reset</button>
+	<button class="btn btn-outline-success" onclick="Download()">Download</button>
+
+	<div class="box">
+		<!-- ul#$*11>li#$*11 -->
+		<ul id="1">
+			<li id="1"></li>
+			<li id="2"></li>
+			<li id="3"></li>
+			<li id="4"></li>
+			<li id="5"></li>
+		</ul>
+		<ul id="2">
+			<li id="1"></li>
+			<li id="2"></li>
+			<li id="3"></li>
+			<li id="4"></li>
+			<li id="5"></li>
+		</ul>
+		<ul id="3">
+			<li id="1"></li>
+			<li id="2"></li>
+			<li id="3"></li>
+			<li id="4"></li>
+			<li id="5"></li>
+		</ul>
+		<ul id="4">
+			<li id="1"></li>
+			<li id="2"></li>
+			<li id="3"></li>
+			<li id="4"></li>
+			<li id="5"></li>
+		</ul>
+		<ul id="5">
+			<li id="1"></li>
+			<li id="2"></li>
+			<li id="3"></li>
+			<li id="4"></li>
+			<li id="5"></li>
+		</ul>
+	</div>
+</div>
+
+</body>
+</html>

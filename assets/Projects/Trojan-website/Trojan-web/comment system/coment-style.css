@@ -1,0 +1,285 @@
+/* comment system style*/
+.comments-cointer{
+	background: 		rgba(55, 88, 98,0.9);
+	width: 				1000px;
+	height: 			60px;
+	position: 			relative;
+	margin-top: 		0px;
+	left: 				180px;
+	border-radius: 		5px;
+	box-shadow: 		0px 4px 5px rgba(0,0,0,0.5);
+}
+
+#inner{
+	overflow-y: 		scroll;
+	background: 		rgba(55, 88, 98,0.5);
+	width: 				940px;
+	height: 			450px;
+	position: 			absolute;
+	margin-top: 		0px;
+	left: 				30px;
+	top: 				62px;
+	margin-bottom:		40px; 
+
+}
+
+
+/* the header*/
+
+#counter-cointer{
+	color: 				rgba(225,225,225,0.9);
+    font-family: 		Arial Rounded MT;
+    font-size: 			20px;
+    text-shadow: 		0px 1px 2px rgba(0,0,0,0.8);
+    position: 			absolute;
+    top: 				20px;
+    left: 				60px;
+}
+
+
+#login a{
+	color: 				rgba(225,225,225,0.9);
+    font-family: 		Arial Rounded MT;
+    font-size: 			20px;
+    text-shadow: 		0px 1px 2px rgba(0,0,0,0.8);
+    top: 				20px;
+    left: 				890px;
+    text-decoration: 	none;
+    margin: 			5px;
+}
+
+
+#login {
+	transition: 		all 0.3s;
+	color: 				rgba(225,225,225,0.9);
+    font-family: 		Arial Rounded MT;
+    font-size: 			20px;
+    text-shadow: 		0px 1px 2px rgba(0,0,0,0.8);
+    position: 			absolute;
+    top: 				20px;
+    left: 				890px;
+}
+
+
+a:hover #login{
+	color: 				rgba(225,225,225,0.5);
+}
+
+
+a:active #login{
+	color: 				rgba(225,225,225,0.8);
+	transform: 			translateX(1px);
+}
+
+
+#counter{
+	color: 				rgba(225,225,225,0.9);
+    font-family: 		Arial Rounded MT;
+    font-size: 			20px;
+    text-shadow: 		0px 1px 2px rgba(0,0,0,0.8);
+    position: 			absolute;
+    top: 				20px;
+    left: 				30px;
+}
+
+/*textarea style*/
+
+textarea{
+	transition: 		all 1s;
+	font-family: 		Consolas;
+	font-size: 			17px;
+	position: 			absolute;
+	min-width: 			400px;
+	min-height: 		60px;
+	max-width: 			400px;
+	max-height: 		60px;
+	left: 				-120px;
+	top: 				50px;
+	border:				2px solid rgb(55, 88, 98);
+	box-shadow: 		0px 5px 10px rgba(0,0,0,0.8);
+	background: 		rgba(0,0,0,0.5);
+	color: 				white;
+	opacity:			0;
+
+}
+
+#comment{
+	position:			absolute;
+	left: 				580px;
+	top: 				4150px;
+	width: 				150px;
+	height: 			50px;
+	background: 		rgb(55, 88, 98);
+	border-radius: 		60px 60px 0px 0px;
+	box-shadow: 		0px 0px 12px 6px rgba(0,0,0,0.3);
+	transition: 		all 0.5s ease 0s;
+	
+}
+
+#comment img{
+	width:               100px;
+	height:              80px;
+	position:            relative;
+	top: 	             -10px;
+	left: 	             25px;
+	transition: 		all 0.5s ease 0s;
+	opacity: 			0.7;
+}
+
+
+#send{
+	transition: 		all 0.2s;
+	position: 			relative;
+	left: 				300px;
+	top: 				-5px;
+	background: 		#689F38;
+	font-family: 		Gill Sans MT;
+	font-size: 			20px;
+	padding: 			10px 20px 10px;
+	text-decoration: 	none;
+	color: 				white;
+	text-shadow: 		0px 1px 3px rgba(0,0,0,0.3);
+	box-shadow: 		0px 0px 10px rgba(0,0,0,0.5);
+	opacity: 			0;
+	border-radius: 		10px 0px;
+
+}
+
+#send:hover{
+	background: 		rgba(90, 133, 44,0.7);
+}
+
+
+/*--------------------------------------------------- 
+login and register board for useres
+---------------------------------*/
+
+#log-regi{
+	transition: 		all 0.6s;
+	position: 			relative;
+	width: 				260px;
+	height: 			200px;
+	background: 		rgba(0,0,0,0.7);
+	z-index: 			5;
+	left: 				780px;
+	top: 				60px;
+	box-shadow: 		inset 0px 0px 20px rgba(0,0,0,0.7);
+	-webkit-transform: 	scale(0,0);
+	opacity: 			0;
+}
+
+
+label{
+	color: 				rgba(225,225,225,0.8);
+	font-size: 			19px;
+	font-family: 		Consolas;
+	text-shadow: 		0px 1px 2px rgba(0,0,0,0.5);
+}
+
+#user{
+	width: 				190px;
+	height: 			25px;
+	margin-top: 		10px;
+	margin-left: 		30px;
+	font-size: 			19px;
+	font-family: 		arial;
+	
+}
+
+#pass{
+	width: 				190px;
+	height: 			25px;
+	margin-top: 		10px;
+	margin-left: 		30px;
+	font-size: 			19px;
+	
+
+}
+
+#varify{
+	transition: 		all 0.3s;
+	background: 		rgb(7, 120, 67);
+	position: 			relative;
+	left: 				50px;
+	top: 				20px;
+	padding: 			10px 10px 10px;
+	text-decoration: 	none;
+	color: 				white;
+	text-shadow: 		0px 1px 2px black;
+	border-radius: 		0px 8px;
+	font-family: 		Gill Sans MT;
+
+
+}
+
+
+#newuser{
+	transition: 		all 0.3s;
+	background: 		rgb(6, 121, 109);
+	position: 			relative;
+	left: 				80px;
+	top: 				20px;
+	padding: 			10px 10px 10px;
+	text-decoration: 	none;
+	color: 				white;
+	text-shadow: 		0px 1px 2px black;
+	border-radius: 		8px 0px;
+	font-family: 		Gill Sans MT;
+}
+
+
+#newuser:hover{
+	background: 		rgba(6, 121, 109,0.7);
+}
+
+#varify:hover{
+	background: 		rgba(7, 120, 67,0.7);
+}
+
+
+#h1register{
+	transition: 		all 0.3s;
+	position: 			absolute;
+	left: 				1px;
+	top: 				200px;
+	font-family: 		Gill Sans MT;
+	color: 				white;
+	text-shadow: 		0px 1px 2px black;
+	padding: 			10px 70px 10px;
+	background: 		rgb(4, 125, 47);
+	box-shadow: 		inset 0px 0px 10px rgba(0,0,0,0.2);
+	opacity: 			0;
+	transform: 			scale(0,0);
+}
+
+/* the massage board*/
+
+#block{
+	display: block;
+	margin: 20px;
+	font-size:18px;
+	font-family: Consolas;
+	color: rgba(225,225,225,0.9);
+	background: linear-gradient(90deg,rgba(48, 80, 80,0.9),rgba(64, 128, 128,0.1));
+	width: 800px;
+	height: auto;
+	padding: 20px 20px 20px;
+	border-left: 15px solid rgb(18, 135, 71);
+	border-radius: 4px;
+	position: relative;
+	overflow: hidden;
+	display: none;
+}
+
+
+#MSdisplay{
+	width: 790px;
+	display: block;
+}
+
+
+#img5 img{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+}

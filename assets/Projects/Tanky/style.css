@@ -1,0 +1,65 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#Player {
+  position: absolute;
+  width: 60px;
+  height: 80px;
+  background:rgb(57,85,73);
+  border-radius: 3px;
+  border-top: 10px solid rgb(88,65,52);
+  z-index: -1;
+}
+
+#Turret{
+ position: absolute;
+ width: 50px;
+ height: 50px;
+ background:rgb(40,60,100);
+ border-radius: 5px;
+ top: 20px;
+ left: 5px;
+ transform-origin:center;
+
+}#hall{
+ transition:top 0.2s;
+ position: absolute;
+ width: 20px;
+ height: 100px;
+ background:rgb(86,85,64);
+ top: -80px;
+ left: 17px;
+ transform-origin:bottom;
+ border-radius: 2px;}
+#Cover{
+ position: absolute;
+ width: 50px;
+ height: 50px;
+ background:rgb(40,60,100);
+ border-radius: 5px;
+ top: 80px;
+ left: -17px;
+
+}
+
+#Bull0,
+#Bull1,
+#Bull2,
+#Bull3,
+#Bull4{
+z-index: -2;
+position: absolute;
+width:10px;
+height: 20px;
+left: -80px;
+border-radius: 4px;
+background:rgb(163,62,50); 
+transform-origin:bottom;}
+
+
+h3{
+  text-align: center;
+}
